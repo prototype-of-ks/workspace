@@ -1,0 +1,24 @@
+{
+  "name": "pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/@dev0109/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.0"
+  }
+}
