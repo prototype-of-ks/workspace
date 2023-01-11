@@ -2,8 +2,12 @@
 
 module.exports = hooks;
 
-function node() {}
+const _ = require('lodash');
 
 function hooks() {
-    return "Hello from hooks";
+	const array = [false, undefined, '', null, [], {}];
+
+	return _.eachRight(array, (x) => {
+		console.log('[x]:', x);
+	});
 }
