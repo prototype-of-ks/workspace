@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/lib",
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "",
+    "baseUrl": "src",
+    "jsx": "react",
+    "isolatedModules": false,
+    "allowJs": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules"],
+}

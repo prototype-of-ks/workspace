@@ -1,0 +1,43 @@
+{
+  "name": "@shke/cli",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "prototype-of-ks <prototype-of-ks@github.com>",
+  "homepage": "https://github.com/prototype-of-ks/workspace#readme",
+  "license": "ISC",
+  "main": "lib/cli.ts",
+  "module": "commonjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prototype-of-ks/workspace.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js",
+    "client:dev": "tsnd --respawn bin/index.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/prototype-of-ks/workspace/issues"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "arg": "^5.0.2",
+    "chalk": "^5.2.0",
+    "esm": "^3.2.25",
+    "execa": "^6.1.0",
+    "inquirer": "^9.1.4",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
